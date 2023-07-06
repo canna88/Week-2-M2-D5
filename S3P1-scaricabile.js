@@ -4,6 +4,9 @@
  è lo stesso allora deve ritornare la loro somma moltiplicata per 3.
 */
 
+console.log("Esercizio 1") 
+console.log("") 
+
 function  crazySum (a,b) {
     if (Number.isInteger(a) && Number.isInteger(b)) {
         if (a === b) {
@@ -19,12 +22,19 @@ function  crazySum (a,b) {
 }
 
 console.log(crazySum(2.1,3)) 
+console.log(crazySum(2,3)) 
+console.log(crazySum(2,2)) 
+
+console.log("") 
+ 
 
 /* ESERCIZIO 2
  Scrivi una funzione chiamata "boundary", che accetta un numero intero come parametro e ritorna true 
  se tale parametro è incluso tra 20 e 100 (incluso) o se è esattamente uguale a 400.
 */
 
+console.log("Esercizio 2") 
+console.log("") 
 
 function boundary (a) {
     if (Number.isInteger(a)) {
@@ -42,9 +52,14 @@ function boundary (a) {
 
 console.log(boundary(3))
 
+console.log("") 
+
 /* ESERCIZIO 3
  Scrivi una funzione chiamata "reverseString", che accetta una stringa come parametro e la ritorna invertita (es.: EPICODE => EDOCIPE).
 */
+
+console.log("Esercizio 3") 
+console.log("") 
 
 function reverseString (a) {
     let reversed = ""
@@ -56,10 +71,15 @@ function reverseString (a) {
 
 console.log(reverseString("Alessio"))
 
+console.log("") 
+
 /* ESERCIZIO 4
  Scrivi una funzione chiamata "upperFirst", che accetta una stringa come parametro e 
  la ritorna rendendo maiuscola ogni lettera iniziale di ogni parola.
 */
+
+console.log("Esercizio 4") 
+console.log("") 
 
 function upperFirst (a) {
     let words = a.split(" ");
@@ -79,10 +99,15 @@ function upperFirst (a) {
 
 console.log(upperFirst("alessio ha mangiato una mela"))
 
+console.log("") 
+
 /* ESERCIZIO 5
  Scrivi una funzione chiamata "giveMeRandom", che accetta come 
  parametro un numero chiamato n e ritorna un array contenente n numeri random contenuti tra 0 e 10.
 */
+
+console.log("Esercizio 5") 
+console.log("") 
 
 function giveMeRandom (a) {
     let randomNumber = []
@@ -94,11 +119,17 @@ function giveMeRandom (a) {
 
 console.log(giveMeRandom(4))
 
+console.log("") 
+
 //EXTRA:
 /* ESERCIZIO 1
  Scrivi una funzione chiamata "area" che riceve due parametri (l1, l2) 
  e calcola l'area del rettangolo associato.
 */
+
+console.log("Esercizio 1 - EXTRA") 
+console.log("") 
+
 
 function area(l1,l2) {
     if (typeof (l1) === "number" && typeof (l2) === "number" ) {
@@ -110,10 +141,15 @@ function area(l1,l2) {
     
 console.log(area(4,3))
 
+console.log("") 
+
 /* ESERCIZIO 2
  Scrivi una funzione chiamata "crazyDiff" che calcola la differenza assoluta tra un numero fornito e 19.
  Se il valore calcolato è più grande di 19, la funzione deve tornare tale risultato moltiplicato per 3.
 */
+
+console.log("Esercizio 2 - EXTRA") 
+console.log("") 
 
 function crazyDiff(a) {
     if (typeof (l1) === "number") {
@@ -130,6 +166,7 @@ function crazyDiff(a) {
 console.log(crazyDiff(20))
 console.log(crazyDiff("prova"))
 
+console.log("") 
 
 /* ESERCIZIO 3
  Scrivi una funzione chiamata "codify" che accetta una stringa come parametro.
@@ -137,6 +174,9 @@ console.log(crazyDiff("prova"))
  e ritornare il risultato, ma se la stringa fornita comincia proprio con "code" 
  allora deve ritornarla senza modifiche.
 */
+
+console.log("Esercizio 3 - EXTRA") 
+console.log("") 
 
 function codify(a) {
     if (typeof a === "string") {
@@ -153,6 +193,8 @@ function codify(a) {
 console.log(codify("prova"))
 console.log(codify(2))
 
+console.log("") 
+
 
 /* ESERCIZIO 4
  Scrivi una funzione chiamata "check3and7" la quale accetta un numero intero positivo come parametro.
@@ -160,6 +202,9 @@ console.log(codify(2))
  e in tal caso tornare true; altrimenti deve tornare false.
  SUGGERIMENTO: operatore modulo
 */
+
+console.log("Esercizio 4 - EXTRA") 
+console.log("") 
 
 function check3and7 (a) {
     if (typeof a === "number") {
@@ -180,10 +225,15 @@ console.log(check3and7(32))
 console.log(check3and7("prova"))
 
 
+console.log("") 
+
 /* ESERCIZIO 5
  Scrivi una funzione chiamata "cutString", che accetta una stringa come parametro 
  e la ritorna senza il primo e l'ultimo carattere.
 */
+
+console.log("Esercizio 5 - EXTRA") 
+console.log("") 
 
 function cutString (a) {
     if (typeof a === "string") {
